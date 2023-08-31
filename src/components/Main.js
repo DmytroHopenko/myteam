@@ -88,7 +88,7 @@ export default function Main() {
           <h4>Kady Baker</h4>
           <span>Product Manager at Bookmark</span>
           <img
-            src="/myteam/img/avatar-kady.jpg"
+            src={`/myteam/img/avatar-kady.jpg?timestamp=${Date.now()}`}
             alt="human"
             width="62"
             height="62"
