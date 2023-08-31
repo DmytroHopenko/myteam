@@ -7,12 +7,13 @@ import NoPage from "./pages/NoPage";
 function App() {
   return (
     <div className="wrapper">
-      <BrowserRouter>
+      <BrowserRouter basename="/myteam">
         <Routes>
           <Route index element={<HomePage />} />
-          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </div>
