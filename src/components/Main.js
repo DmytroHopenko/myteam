@@ -88,7 +88,7 @@ export default function Main() {
           <h4>Kady Baker</h4>
           <span>Product Manager at Bookmark</span>
           <img
-            src="./img/avatar-kady.jpg"
+            src="/myteam/img/avatar-kady.jpg"
             alt="human"
             width="62"
             height="62"
@@ -104,7 +104,7 @@ export default function Main() {
           <h4>Aiysha Reese</h4>
           <span>Founder of Manage</span>
           <img
-            src="./img/avatar-aiysha.jpg"
+            src="/myteam/img/avatar-aiysha.jpg"
             alt="human"
             width="62"
             height="62"
@@ -120,7 +120,7 @@ export default function Main() {
           <h4>Arthur Clarke</h4>
           <span>Co-founder of MyPhysio</span>
           <img
-            src="./img/avatar-arthur.jpg"
+            src="/myteam/img/avatar-arthur.jpg"
             alt="human"
             width="62"
             height="62"
