@@ -104,7 +104,7 @@ export default function Main() {
           <h4>Aiysha Reese</h4>
           <span>Founder of Manage</span>
           <img
-            src="/myteam/img/avatar-aiysha.jpg"
+            src={`/myteam/img/avatar-aiysha.jpg?timestamp=${Date.now()}`}
             alt="human"
             width="62"
             height="62"
@@ -120,7 +120,7 @@ export default function Main() {
           <h4>Arthur Clarke</h4>
           <span>Co-founder of MyPhysio</span>
           <img
-            src="/myteam/img/avatar-arthur.jpg"
+            src={`/myteam/img/avatar-arthur.jpg?timestamp=${Date.now()}`}
             alt="human"
             width="62"
             height="62"
