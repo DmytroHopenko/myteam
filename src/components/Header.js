@@ -27,18 +27,23 @@ export default function Header() {
       }
     })
   });
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0
+    })
+  }
   const Navigation = () => (
     <nav>
       <ul>
         <Cross />
         <li>
-          <Link to="/">home</Link>
+          <Link to="/" onClick={scrollUp}>home</Link>
         </li>
         <li>
-          <Link to="/about">about</Link>
+          <Link to="/about" onClick={scrollUp}>about</Link>
         </li>
         <li>
-          <Link to="/contact">contact us</Link>
+          <Link to="/contact" onClick={scrollUp}>contact us</Link>
         </li>
       </ul>
       <PatternMobileNav />

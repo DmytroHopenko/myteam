@@ -30,9 +30,11 @@ $DarkGreen: #002529;
   margin: 0;
   padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Livvic", sans-serif;
-  scroll-behavior: smooth;
   background: $MidnightGreen;
 }
 .wrapper {

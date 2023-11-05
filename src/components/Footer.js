@@ -10,6 +10,11 @@ export default function Footer() {
       />
     </svg>
   );
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0
+    })
+  }
   const Facebook = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
       <path
@@ -38,8 +43,8 @@ export default function Footer() {
     <div className="footer_menu">
       <Logo />
       <div className="links">
-        <Link to="/">home</Link>
-        <Link to="/about">about</Link>
+        <Link to="/" onClick={scrollUp}>home</Link>
+        <Link to="/about" onClick={scrollUp}>about</Link>
       </div>
     </div>
   );
